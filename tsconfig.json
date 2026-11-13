@@ -1,0 +1,15 @@
+{
+  "//": "For your editor only. Node runs the .ts files directly (type stripping, Node 22.18 or later); nothing is compiled.",
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "tests"]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "webhook-service",
+  "version": "1.0.0",
+  "description": "The course project for Learn Nool (https://www.nool.dev/tutorial): a small webhook service with a billing module and an API.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node src/index.ts",
+    "test": "node scripts/test.mjs",
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "~5.9"
+  }
+}
