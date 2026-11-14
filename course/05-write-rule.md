@@ -26,4 +26,4 @@ export const awsConfig = {
 
 **What you should see:** `[Aram DSL] POL-WS-001 failed: diff_matches(AKIA[0-9A-Z]{16})` and `Gate stack denied [POLICY_DENY] at stage pre-propose: reason code 403`, twice, word for word. The fixed file lands, and `nool policy stats` has a row for `policy:POL-WS-001`.
 
-**Edition note.** Checked on 7.28.0 Enterprise. Rules and `nool admin contract grant --role editor` are coming to every edition; on an older Community release, a rule in `policies/` can make later proposals fail with `no unexpired Editor/Planner contract`.
+**Edition note.** Checked on 7.28.0 Enterprise. Rules and `nool admin contract grant --role editor` are in every edition from 7.28.0. Community loads up to 3 rules, Team up to 11, Enterprise has no limit. On an older Community release, a rule in `policies/` can make later proposals fail with `no unexpired Editor/Planner contract`.
