@@ -66,9 +66,9 @@ test("GET /health says degraded when more than 100 events are waiting", { todo: 
   assert.equal((reply.body as { status: string }).status, "degraded");
 });
 
-// Module 17 exercise (team capstone).
+// Module 21 exercise (team capstone).
 
-test("GET /v1/invoices returns at most ?limit invoices", { todo: "Module 17: paged invoices" }, async () => {
+test("GET /v1/invoices returns at most ?limit invoices", { todo: "Module 21: paged invoices" }, async () => {
   const { call } = setup();
   for (const amount of [100, 200, 300]) await call("POST", "/v1/charges", { customer: "cus_1", amount });
   const reply = await call("GET", "/v1/invoices?customer=cus_1&limit=2");

@@ -26,11 +26,11 @@ src/
     client.ts          deliver() sends webhooks; charge() and listInvoices()
     provider.ts        an in-memory stand-in for a payment provider
 tests/                 Node's built-in test runner
-docs/retry-policy.md   written by an agent in Module 17
+docs/retry-policy.md   written by an agent in Module 21
 course/                notes for each module: what to change, and the code
 scripts/
   test.mjs             npm test, or npm test -- billing for one area
-  setup-workspace.sh   Module 18: two more repositories that call this one
+  setup-workspace.sh   Module 22: two more repositories that call this one
 ```
 
 Run it with `npm start` (port 3000), and set `WEBHOOK_URL` to have each charge delivered as a `charge.succeeded` webhook.

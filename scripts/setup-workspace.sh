@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Module 18: lay out a small company of repositories for `nool workspace`.
+# Module 22: lay out a small company of repositories for `nool workspace`.
 #
 #   scripts/setup-workspace.sh [acme-dir]      (default: ~/acme)
 #

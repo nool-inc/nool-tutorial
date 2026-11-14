@@ -18,12 +18,16 @@ Exercises live in the tests as `todo` tests: they run on every `npm test` and sh
 | | 10 Find out why something broke | [10-operate.md](10-operate.md) | |
 | | 11 Hand a whole goal to nool code | [11-nool-code.md](11-nool-code.md) | |
 | | 12 Solo capstone | [12-solo-capstone.md](12-solo-capstone.md) | Module 12 tests |
-| 3 Team | 13 Claim code before you edit it | [13-announce.md](13-announce.md) | |
-| | 14 Let agents ask instead of collide | [14-agent-to-agent.md](14-agent-to-agent.md) | |
-| | 15 Run a fleet you can steer | [15-fleets.md](15-fleets.md) | |
-| | 16 Merge by your team's branch rules | [16-branches-merge.md](16-branches-merge.md) | |
-| | 17 Team capstone | [17-capstone.md](17-capstone.md) | Module 17 tests |
-| 4 Company | 18 Align every repository in the company | [18-workspaces.md](18-workspaces.md) | `scripts/setup-workspace.sh` |
-| | 19 Hold sensitive changes | [19-gates.md](19-gates.md) | |
+| | 13 Undo a change without rewriting history | [13-history.md](13-history.md) | |
+| | 14 Write down how your code is meant to fit together | [14-review-architecture.md](14-review-architecture.md) | |
+| | 15 Take a branch from pull request to merge | [15-github-loop.md](15-github-loop.md) | `tests/billing/charges.test.ts` |
+| 3 Team | 16 Claim code before you edit it | [16-announce.md](16-announce.md) | |
+| | 17 Let agents ask instead of collide | [17-agent-to-agent.md](17-agent-to-agent.md) | |
+| | 18 Run a fleet you can steer | [18-fleets.md](18-fleets.md) | |
+| | 19 Try two ideas, keep the one that works | [19-explore-playbooks.md](19-explore-playbooks.md) | |
+| | 20 Merge by your team's branch rules | [20-branches-merge.md](20-branches-merge.md) | |
+| | 21 Team capstone | [21-capstone.md](21-capstone.md) | Module 21 tests |
+| 4 Company | 22 Align every repository in the company | [22-workspaces.md](22-workspaces.md) | `scripts/setup-workspace.sh` |
+| | 23 Hold sensitive changes | [23-gates.md](23-gates.md) | |
 
-**What was checked.** Modules 01 to 10 and 18, and the rule in 19, were run start to finish against this project with Nool 7.28.0 (Enterprise binary) on 2026-11-14. Modules 11 to 17 and the rest of 19 need a model provider key, a Team trial or a second reviewer, so only their code and tests were checked here. If something on your screen differs from these notes, the notes say so where we know about it; otherwise, tell us at help@nool.dev.
+**What was checked.** Every module except 11, 12, 18 and 21 was run against this project with Nool 7.28.0 (Enterprise binary) on 2026-11-14: each module was run once, then run again from a fresh clone to catch what differed. Modules 11, 12, 18 and 21 need a model provider key, and steps that need GitHub or a second reviewer's key were checked against `--help` only; the notes say which. If something on your screen differs from these notes, tell us at help@nool.dev.
